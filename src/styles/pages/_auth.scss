@@ -1,0 +1,61 @@
+.login__page {
+  min-height: 100vh;
+  @media screen and (min-width: 1000px) {
+    display: flex;
+  }
+}
+
+.form__part {
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  h1 {
+    margin-top: 50px;
+  }
+  @media screen and (min-width: 1000px) {
+    flex: 50%;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+.banner__title {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.banner__part {
+  display: none;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 50px;
+  background-color: #d3e9fc;
+
+  @media screen and (min-width: 1000px) {
+    flex: 50%;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  @media screen and (min-width: 1000px) {
+    display: flex;
+  }
+}
+
+.bg-reg {
+  background-color: #f2f2f2;
+  background-image: url("/images/signin-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.input__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}

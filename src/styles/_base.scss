@@ -1,0 +1,30 @@
+@import "mixis";
+@import "utils";
+@import "fonts";
+@import "variables";
+@import "reset";
+
+html, body {
+    color: var(--vvd-color-primary);
+    font-family: "Spezia" , sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.d-block {
+    display: block;
+}
+
+
+a, a:visited {
+    color: var(--link-color);
+}
+
+.title {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    & + p {
+        margin-bottom: 20px;
+    }
+}
